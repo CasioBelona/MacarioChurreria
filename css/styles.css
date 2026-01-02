@@ -68,15 +68,17 @@ footer{padding:32px 6%;text-align:center;opacity:.7}
   .experience img{order:2}
 }
 
-/* Mobile polish */
+
 .hero-content {
-  padding-left: 6%;
-  padding-right: 6%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
+
 @media (max-width: 480px) {
-  section {
-    padding: 56px 7%;
+  .hero-content {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .hero h1 {
